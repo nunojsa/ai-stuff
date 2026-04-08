@@ -1,0 +1,11 @@
+[project]
+name = "searxng-research-skill"
+version = "0.1.0"
+description = "SearXNG-based research skill for pi agent"
+requires-python = ">=3.10"
+
+dependencies = [
+    "requests",
+    "beautifulsoup4",
+    "markdownify",
+]
