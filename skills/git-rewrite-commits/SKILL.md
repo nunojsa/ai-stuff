@@ -48,7 +48,9 @@ user review before each amend.
 
 ## Usage Examples
 
+```
 User: "Reword the last 10 commits with proper messages"
 User: "Add commit message bodies to commits X through Y"
 User: "Improve commit messages for this patch series"
 User: "Rewrite subjects and bodies for the last 5 commits"
+```
