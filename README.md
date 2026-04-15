@@ -9,6 +9,7 @@ AI coding agents.
 |-------|-------------|
 | [git-rewrite-commits](skills/git-rewrite-commits/SKILL.md) | Interactively rewrite git commit messages for a range of commits |
 | [gh-iterate](skills/gh-iterate/SKILL.md) | Iterate on a GitHub PR by addressing review feedback as fixup commits |
+| [web-search](skills/web-search/SKILL.md) | Fetch any URL as clean markdown, or search the web via a local SearXNG instance |
 
 ## Setup
 
