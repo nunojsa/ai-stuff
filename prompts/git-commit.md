@@ -3,14 +3,14 @@ description: Create a git commit with proper subject, message, and sign-off
 argument-hint: "[instructions]"
 ---
 
-Create a git commit for the currently staged changes (or all changes if nothing is staged).
+Prepare a git commit for the currently staged changes (or all changes if nothing is staged but do **SKIP** untracked files), then ask for approval before creating it.
 
 ## Process
 1. Run `git diff --cached` (or `git diff` if nothing is staged) to understand the actual changes
 2. Run `git log --no-merges --oneline <changed-file-path> | head -20` for each changed file to learn the project's subject line style (prefix, capitalization, etc.)
 3. Write the commit message based on the **intent and reasoning**, not a description of the code diff
-4. Show me the proposed commit message before committing
-5. Commit with `git commit -s` unless explicitly told not to
+4. Show me the proposed commit message and **STOP**. Do not run `git commit` yet. Wait for my explicit approval before committing.
+5. Only after I approve the proposed message, commit with `git commit -s` unless explicitly told not to
 
 ## Subject Line
 - Follow the style from `git log` of the changed files (e.g., `subsystem: component: short description`)
