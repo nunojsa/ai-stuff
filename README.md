@@ -8,6 +8,7 @@ AI coding agents.
 | Skill | Description |
 |-------|-------------|
 | [adrv9002-sdk-updater](skills/adrv9002-sdk-updater/SKILL.md) | Update the adrv9002 IIO driver when a new SDK is available |
+| [b4-iterate](skills/b4-iterate/SKILL.md) | Iterate on a b4 managed kernel patch series by addressing the lore review feedback in the proper patches |
 | [git-rewrite-commits](skills/git-rewrite-commits/SKILL.md) | Interactively rewrite git commit messages for a range of commits |
 | [gh-iterate](skills/gh-iterate/SKILL.md) | Iterate on a GitHub PR by addressing review feedback as fixup commits |
 | [web-search](skills/web-search/SKILL.md) | Fetch any URL as clean markdown, or search the web via a local SearXNG instance |
